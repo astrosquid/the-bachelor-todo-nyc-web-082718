@@ -48,6 +48,7 @@ def get_average_age_for_season(data, season)
   puts sum 
   puts contestants.length 
   puts ''
+  
   sum > sum.to_i ? (sum).to_i + 1 / contestants.length : sum.to_i / contestants.length 
   # sum / contestants.length 
 end
