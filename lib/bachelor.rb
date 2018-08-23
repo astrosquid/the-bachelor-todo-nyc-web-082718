@@ -45,5 +45,5 @@ def get_average_age_for_season(data, season)
   contestants.each do |attrs|
     sum += attrs["age"]
   end
-  sum / contestants.length
+  sum / contestants.length 
 end
